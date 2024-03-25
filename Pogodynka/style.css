@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+body{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #E5E5E5;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.Glowny-Kontener{
+
+    /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.03); */ /* Jeśli chcesz dodać cień, odkomentuj */
+
+    display: flex;
+
+    justify-content: center;
+
+    align-self: center;
+
+    border-radius: 60px;
+
+    background-color: white;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 20%; 
+
+    height: 60%;
+
+}
+
+.Wyszukiwarka{
+
+    display: flex;
+
+    background-color: transparent;
+
+    margin-top: 25px;
+
+    width: 90%;
+
+    height: 10%;   
+
+    margin-left: auto;
+
+    margin-right: auto; 
+
+    position: absolute;
+
+    /* background-color: black; */
+
+}
+
+.Wyszukiwarka input {
+
+    background-color: #F7F7F7;
+
+    border-radius: 360px;
+
+    border-color: transparent;
+
+    width: 90%;
+
+    height: 40%;
+
+    position: absolute;
+
+    left: 0;
+
+    right: 0;
+
+    top: 0;
+
+    bottom: 0;
+
+    margin: auto;
+
+}
+
+.Lupka-Przycisk{
+
+    position: absolute;
+
+    align-self: center;
+
+    border-color: transparent;
+
+    background-color: transparent;
+
+    margin-top: 25px;
+
+    margin-left: 400px;
+
+}
+
+
+.Lupka-Przycisk img{
+
+    background-color: transparent;
+
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.Lupka-Przycisk img:hover{
+
+    transform: scale(1.1);
+
+}
+ 
+.Przyciski{
+
+    margin-top: 90px;
+
+    position: absolute;
+
+}
+
+
+.Przycisk_1, .Przycisk_2, .Przycisk_3{
+
+    padding: 0px 0px;
+
+    border-radius: 360px;
+
+    color: #C4C4C4;
+    
+    width: 8px;
+
+    height: 8px;
+
+    border-color: transparent;
+
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.Przycisk_1:hover, .Przycisk_2:hover, .Przycisk_3:hover {
+
+    background-color: black;
+
+    transform: scale(1.1);
+
+}
+
+.Pogoda{
+
+    align-items: center;
+
+    align-self: center;
+
+    position: absolute;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    margin-left: 0;
+
+    margin-right: 0;
+
+    right: 0;
+
+    left: 0;
+
+}
+
+.Pogoda img{
+
+    width: 30%;
+
+    height:30%;
+
+    transition: transform 0.3s ease;
+
+    margin-top: -130px;
+
+    right: 0;
+
+    left: 0;
+
+    margin-left: 0;
+
+    margin-right: 0;
+
+    align-self: center;
+
+}
+
+.Pogoda img:hover{
+
+    transform: scale(1.1);
+
+}
+
+.Miasto-Tekst{
+
+    font-size: 34px;
+
+    font-style: semi-bold;
+
+    margin-left: 0;
+
+    margin-right: 0;
+
+    text-align: center;
+
+}
+
+.Temperatura-Tekst{
+
+    margin-top: -35px;
+
+    font-size: 80px;
+
+    font-style: medium;
+    
+    margin-left: 0;
+
+    margin-right: 0;
+
+    transition: transform 0.3s ease;
+
+    text-align: center;
+
+}
+
+.Temperatura-Tekst:hover{
+
+    transform: scale(1.1);
+
+}
+
+.Informacje-Sektor-1{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    position: absolute;
+
+    align-items: center;
+
+    align-self: center;
+
+    margin-top: 240px;
+
+    background-color: #F7F7F7;
+
+    border-radius: 30px;
+
+    position: absolute;
+
+    width: 90%;
+
+    height: 10%;
+
+    text-align: center;
+
+}
+
+.Czas, .UV, .Wiatr, .Deszcz {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+
+    margin: 0 21px;
+
+}
+
+
+.Czas-Tekst, .UV-Tekst, .Wiatr-Tekst, .Deszcz-Tekst{
+
+    font-style: medium;
+
+    font-size: 15px;
+
+    color: #C4C4C4;
+
+    margin-top: 12px;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+    align-self: center;
+
+    text-align: center;
+    
+
+}
+.Czas-Wynik, .UV-Wynik, .Wiatr-Wynik, .Deszcz-Wynik{
+
+    font-style: medium;
+
+    font-size: 17px;
+
+    color: #9A9A9A;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+    align-self: center;
+
+    margin-top: -5px;
+
+    text-align: center;
+
+}
+
+.Informacje-Sektor-2{
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    align-self: center;
+
+    margin-top: 530px;
+
+    background-color: #F7F7F7;
+
+    border-radius: 30px;
+
+    position: absolute;
+
+    width: 90%;
+
+    height: 20%;
+
+}
+
+.Informacje-Sektor-2 img{
+
+    width: 100%;
+
+    height: 100%;
+
+    border-radius: 30px;
+
+    right: 0;
+
+    left: 0;
+
+    margin-left: 0;
+
+    margin-right: 0;
+
+    align-self: center;
+
+    transition: transform 0.3s ease;
+
+}
+
+.Informacje-Sektor-2 img:hover{
+
+    transform: scale(1.025);
+
+}
